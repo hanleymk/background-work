@@ -57,7 +57,7 @@ for i, row in enumerate(vals):
     m = re.fullmatch(r"(\d{1,2})/(\d{1,2})/(\d{2,4})", date)
     if m and not upcoming:
         y = int(m[3]) + (2000 if int(m[3]) < 100 else 0)
-        if y < 2010 and ep: warn.append(f"row {i+1} {title} {ep}: suspicious year {y}")
+        if y < 2010 and ep: warn.append(f"row {i+1} {title} {ep}: suspicious year {y}, date hidden"); date = ""
     out.append(dict(id=i, title=title, episode=ep, date=date, times=lines(ts), notes=lines(notes),
                     shots=[h for _, h, _ in sorted(pos.get(i, []))], upcoming=upcoming))
 
