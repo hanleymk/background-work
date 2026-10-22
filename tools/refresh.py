@@ -50,7 +50,7 @@ if new:
 out, upcoming, warn = [], False, []
 for i, row in enumerate(vals):
     if i == 0 or not row or not row[0].strip(): continue
-    if row[0].strip().lower() == "not yet released": upcoming = True; continue
+    if row[0].strip().lower() == "not yet released": break  # ignore everything below the marker
     title, ep, date, ts, notes = ([x.strip() for x in row + [""] * 5][:5])
     date = DATE_FIX.get(date, date)
     if date and not re.fullmatch(r"\d{4}|\d{1,2}/\d{1,2}/\d{2,4}", date): warn.append(f"row {i+1} {title}: odd date '{date}'")

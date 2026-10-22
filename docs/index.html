@@ -85,7 +85,7 @@ function parseDate(d){ if(!d) return {t:0,label:''};
   if(m){let y=+m[3]; if(y<100) y+=2000; return {t:Date.UTC(y,m[1]-1,m[2]),label:`${MON[m[1]-1]} ${+m[2]}, ${y}`}}
   if(/^\d{4}$/.test(d)) return {t:Date.UTC(+d,5,1),label:d}; return {t:0,label:d}}
 const CHI=['Chicago Fire','Chicago Med','Chicago PD'];
-const cat=e=>e.upcoming?'Coming Soon':CHI.includes(e.title)?e.title:'Film & Other TV';
+const cat=e=>CHI.includes(e.title)?e.title:!e.episode?'Films':'Other TV';
 let DATA=[], flat=[], lbi=0;
 function card(e){
   const d=parseDate(e.date), n=e.shots.length;
@@ -97,7 +97,7 @@ function card(e){
   ${times?`<div class="chips">${times}</div>`:''}${notes}</div>${shots}</article>`}
 function render(filter='All'){
   flat=[]; const main=$('#main'); main.innerHTML='';
-  const order=[...CHI,'Film & Other TV','Coming Soon'];
+  const order=[...CHI,'Other TV','Films'];
   for(const g of order){
     if(filter!=='All'&&filter!==g) continue;
     const items=DATA.filter(e=>cat(e)===g).sort((a,b)=>parseDate(b.date).t-parseDate(a.date).t||b.id-a.id);
@@ -110,7 +110,7 @@ fetch('data.json').then(r=>r.json()).then(d=>{
   DATA=d;
   const rel=d.filter(e=>!e.upcoming), shows=new Set(rel.map(e=>e.title));
   $('#stats').innerHTML=[[rel.length,'Appearances'],[shows.size,'Titles'],[d.reduce((a,e)=>a+e.shots.length,0),'Screenshots']].map(([n,l])=>`<div class="stat"><b>${n}</b><span>${l}</span></div>`).join('');
-  const cats=['All',...CHI,'Film & Other TV','Coming Soon'].filter(c=>c==='All'||d.some(e=>cat(e)===c));
+  const cats=['All',...CHI,'Other TV','Films'].filter(c=>c==='All'||d.some(e=>cat(e)===c));
   $('#filters').innerHTML=cats.map((c,i)=>`<button class="pill ${i?'':'on'}">${c}</button>`).join('');
   $('#filters').onclick=e=>{const b=e.target.closest('.pill');if(!b)return;document.querySelectorAll('.pill').forEach(p=>p.classList.toggle('on',p===b));render(b.textContent);scrollTo({top:$('nav.filters').offsetTop,behavior:'smooth'})};
   render();
