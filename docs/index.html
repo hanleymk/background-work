@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mark Hanley — On Screen</title>
+<meta name="description" content="A log of Mark Hanley's background-actor appearances in film and television, with timestamps and screenshots.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#0e0d0c;--card:#171513;--line:#2a2622;--text:#e9e4dc;--muted:#9a9186;--gold:#c9a45c;--serif:'Fraunces',Georgia,serif;--sans:'Inter',system-ui,sans-serif}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--text);font:16px/1.6 var(--sans);-webkit-font-smoothing:antialiased}
+a{color:var(--gold)}
+.wrap{max-width:1040px;margin:0 auto;padding:0 24px}
+header.hero{padding:96px 0 56px;border-bottom:1px solid var(--line);background:radial-gradient(900px 300px at 20% -10%,#2a2113 0,transparent 70%)}
+.hero .wrap{display:flex;gap:40px;align-items:center;flex-wrap:wrap}
+.portrait{width:132px;height:132px;border-radius:50%;border:1px solid var(--gold);background:#1c1915 center/cover;display:none}
+.portrait.on{display:block}
+.eyebrow{letter-spacing:.28em;text-transform:uppercase;font-size:12px;color:var(--gold)}
+h1{font:600 clamp(40px,7vw,72px)/1.05 var(--serif);margin:10px 0 14px;letter-spacing:-.01em}
+.tag{color:var(--muted);max-width:560px;margin:0}
+.stats{display:flex;gap:36px;margin-top:32px;flex-wrap:wrap}
+.stat b{display:block;font:600 34px var(--serif);color:var(--text)}
+.stat span{font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:var(--muted)}
+nav.filters{position:sticky;top:0;z-index:5;background:rgba(14,13,12,.92);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+nav.filters .wrap{display:flex;gap:8px;padding:12px 24px;overflow-x:auto}
+.pill{flex:none;border:1px solid var(--line);background:none;color:var(--muted);padding:6px 14px;border-radius:99px;font:500 13px var(--sans);cursor:pointer}
+.pill:hover{color:var(--text);border-color:#4a4239}
+.pill.on{background:var(--gold);border-color:var(--gold);color:#17120a}
+section.group{padding:56px 0 8px}
+section.group>.wrap>h2{font:600 28px var(--serif);margin:0 0 4px}
+.sub{color:var(--muted);font-size:13px;margin-bottom:24px}
+.entry{display:grid;grid-template-columns:minmax(0,1fr);gap:18px;background:var(--card);border:1px solid var(--line);border-radius:10px;padding:22px;margin-bottom:18px}
+@media(min-width:760px){.entry{grid-template-columns:minmax(0,1.1fr) minmax(0,1fr)}.entry.noimg{grid-template-columns:1fr}}
+.entry h3{font:600 22px var(--serif);margin:0}
+.meta{color:var(--muted);font-size:13px;margin:2px 0 12px;display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+.ep{color:var(--gold);letter-spacing:.06em;text-transform:uppercase;font-size:12px}
+.chips{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:12px}
+.chip{font:12px ui-monospace,Menlo,monospace;border:1px solid var(--line);border-radius:5px;padding:1px 7px;color:var(--muted)}
+.notes{margin:0;padding-left:18px;color:#cfc8bd;font-size:15px}
+.notes li{margin:0 0 6px}
+.notes.single{list-style:none;padding:0}
+.shots{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:8px;align-content:start}
+.shots.one{grid-template-columns:1fr}
+.shots button{padding:0;border:0;background:#000;border-radius:6px;overflow:hidden;cursor:zoom-in;aspect-ratio:16/9;position:relative}
+.shots.one button{aspect-ratio:auto}
+.shots img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .3s,opacity .3s;opacity:.92}
+.shots.one img{height:auto}
+.shots button:hover img{transform:scale(1.04);opacity:1}
+.badge{font-size:11px;letter-spacing:.14em;text-transform:uppercase;border:1px solid var(--gold);color:var(--gold);border-radius:4px;padding:0 6px}
+footer{padding:64px 0 80px;color:var(--muted);font-size:13px;text-align:center;border-top:1px solid var(--line);margin-top:48px}
+#lb{position:fixed;inset:0;background:rgba(0,0,0,.94);display:none;align-items:center;justify-content:center;z-index:50;flex-direction:column;padding:20px}
+#lb.on{display:flex}
+#lb img{max-width:100%;max-height:82vh;border-radius:4px}
+#lb .cap{color:var(--muted);margin-top:12px;font-size:14px;text-align:center}
+#lb button{position:absolute;background:none;border:0;color:#fff;font-size:38px;cursor:pointer;padding:16px;opacity:.7}
+#lb button:hover{opacity:1}
+#lb .x{top:4px;right:10px}#lb .p{left:4px;top:50%}#lb .n{right:4px;top:50%}
+</style>
+</head>
+<body>
+<header class="hero"><div class="wrap">
+  <div class="portrait" id="portrait"></div>
+  <div>
+    <div class="eyebrow">Background Performer</div>
+    <h1>Mark Hanley</h1>
+    <p class="tag">A running log of where to find me on screen — the show, the episode, the timestamp, and what to look for.</p>
+    <div class="stats" id="stats"></div>
+  </div>
+</div></header>
+<nav class="filters"><div class="wrap" id="filters"></div></nav>
+<main id="main"></main>
+<footer><div class="wrap">Timestamps are approximate and based on streaming/broadcast versions.</div></footer>
+<div id="lb"><button class="x" aria-label="Close">×</button><button class="p" aria-label="Previous">‹</button><img alt=""><div class="cap"></div><button class="n" aria-label="Next">›</button></div>
+<script>
+const MON=['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+const $=(s,e=document)=>e.querySelector(s), esc=s=>s.replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+function parseDate(d){ if(!d) return {t:0,label:''};
+  let m=d.match(/^(\d{1,2})\/(\d{1,2})\/(\d{2,4})$/);
+  if(m){let y=+m[3]; if(y<100) y+=2000; return {t:Date.UTC(y,m[1]-1,m[2]),label:`${MON[m[1]-1]} ${+m[2]}, ${y}`}}
+  if(/^\d{4}$/.test(d)) return {t:Date.UTC(+d,5,1),label:d}; return {t:0,label:d}}
+const CHI=['Chicago Fire','Chicago Med','Chicago PD'];
+const cat=e=>e.upcoming?'Coming Soon':CHI.includes(e.title)?e.title:'Film & Other TV';
+let DATA=[], flat=[], lbi=0;
+function card(e){
+  const d=parseDate(e.date), n=e.shots.length;
+  const times=e.times.map(t=>`<span class="chip">${esc(t)}</span>`).join('');
+  const notes=e.notes.length?`<ul class="notes ${e.notes.length==1?'single':''}">${e.notes.map(x=>`<li>${esc(x)}</li>`).join('')}</ul>`:'';
+  const shots=n?`<div class="shots ${n==1?'one':''}">${e.shots.map(s=>{const i=flat.length;flat.push({s,cap:`${e.title}${e.episode?' · '+e.episode.toUpperCase():''}`});return `<button data-i="${i}" aria-label="View screenshot"><img loading="lazy" src="img/${s}_t.jpg" alt="${esc(e.title)} screenshot"></button>`}).join('')}</div>`:'';
+  return `<article class="entry ${n?'':'noimg'}"><div><h3>${esc(e.title)}</h3>
+  <div class="meta">${e.episode?`<span class="ep">${esc(e.episode)}</span>`:''}${d.label?`<span>${d.label}</span>`:''}${e.upcoming?'<span class="badge">Not yet released</span>':''}</div>
+  ${times?`<div class="chips">${times}</div>`:''}${notes}</div>${shots}</article>`}
+function render(filter='All'){
+  flat=[]; const main=$('#main'); main.innerHTML='';
+  const order=[...CHI,'Film & Other TV','Coming Soon'];
+  for(const g of order){
+    if(filter!=='All'&&filter!==g) continue;
+    const items=DATA.filter(e=>cat(e)===g).sort((a,b)=>parseDate(b.date).t-parseDate(a.date).t||b.id-a.id);
+    if(!items.length) continue;
+    const sec=document.createElement('section');sec.className='group';
+    sec.innerHTML=`<div class="wrap"><h2>${g}</h2><div class="sub">${items.length} ${items.length==1?'appearance':'appearances'}</div>${items.map(card).join('')}</div>`;
+    main.appendChild(sec)}}
+function lb(i){lbi=(i+flat.length)%flat.length;const f=flat[lbi];const el=$('#lb');$('img',el).src=`img/${f.s}_l.jpg`;$('.cap',el).textContent=f.cap;el.classList.add('on')}
+fetch('data.json').then(r=>r.json()).then(d=>{
+  DATA=d;
+  const rel=d.filter(e=>!e.upcoming), shows=new Set(rel.map(e=>e.title));
+  $('#stats').innerHTML=[[rel.length,'Appearances'],[shows.size,'Titles'],[d.reduce((a,e)=>a+e.shots.length,0),'Screenshots']].map(([n,l])=>`<div class="stat"><b>${n}</b><span>${l}</span></div>`).join('');
+  const cats=['All',...CHI,'Film & Other TV','Coming Soon'].filter(c=>c==='All'||d.some(e=>cat(e)===c));
+  $('#filters').innerHTML=cats.map((c,i)=>`<button class="pill ${i?'':'on'}">${c}</button>`).join('');
+  $('#filters').onclick=e=>{const b=e.target.closest('.pill');if(!b)return;document.querySelectorAll('.pill').forEach(p=>p.classList.toggle('on',p===b));render(b.textContent);scrollTo({top:$('nav.filters').offsetTop,behavior:'smooth'})};
+  render();
+  const p=new Image();p.onload=()=>{const el=$('#portrait');el.style.backgroundImage="url(portrait.jpg)";el.classList.add('on')};p.src='portrait.jpg';
+});
+$('#main').onclick=e=>{const b=e.target.closest('button[data-i]');if(b)lb(+b.dataset.i)};
+$('#lb .x').onclick=()=>$('#lb').classList.remove('on');
+$('#lb .p').onclick=e=>{e.stopPropagation();lb(lbi-1)};$('#lb .n').onclick=e=>{e.stopPropagation();lb(lbi+1)};
+$('#lb').onclick=e=>{if(e.target.id==='lb')e.target.classList.remove('on')};
+addEventListener('keydown',e=>{if(!$('#lb').classList.contains('on'))return;if(e.key==='Escape')$('#lb').classList.remove('on');if(e.key==='ArrowLeft')lb(lbi-1);if(e.key==='ArrowRight')lb(lbi+1)});
+</script>
+</body>
+</html>

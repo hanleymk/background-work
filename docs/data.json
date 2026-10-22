@@ -1,0 +1,819 @@
+[
+ {
+  "id": 1,
+  "title": "Fred Claus",
+  "episode": "",
+  "date": "2007",
+  "times": [
+   "0:15:20"
+  ],
+  "notes": [
+   "Carol and I walking behind Fred (Vince Vaughn). Just as he says \"Hey there, gimme a hug ... you gorgeous leopard, meow! Who's the queen of the jungle? You are!\", Carol and I are walking right behind him."
+  ],
+  "shots": [
+   "r01_1"
+  ],
+  "upcoming": false
+ },
+ {
+  "id": 2,
+  "title": "The Dark Knight",
+  "episode": "",
+  "date": "2008",
+  "times": [
+   "0:41:57",
+   "0:46:43",
+   "1:23:00"
+  ],
+  "notes": [
+   "As the cops lower the  Clown Batman body, I am the cop with POLICE across my back.",
+   "As Gordon arrives at Police HQ, I am the cop facing him with the shotgun, looking to my right as he enters the building",
+   "When Harvey Dent is speaking to reporters, I am the cop on the left holding back the reporters."
+  ],
+  "shots": [
+   "r02_1",
+   "r02_2",
+   "r02_3"
+  ],
+  "upcoming": false
+ },
+ {
+  "id": 3,
+  "title": "The Beast",
+  "episode": "s01e06",
+  "date": "2009",
+  "times": [
+   "0:09:40"
+  ],
+  "notes": [
+   "In the background when Travis is applying for the job, both Carol and I appear in the background several times, not easily identifiable. Wearing black raincoat."
+  ],
+  "shots": [
+   "r03_1"
+  ],
+  "upcoming": false
+ },
+ {
+  "id": 4,
+  "title": "Chicago Fire",
+  "episode": "s13e12",
+  "date": "01/29/25",
+  "times": [
+   "0:07:45"
+  ],
+  "notes": [
+   "Evacuating worker in black overcoat fleeing the burning building,visible behind Platt and Bates as they meet outside the building."
+  ],
+  "shots": [
+   "r04_1",
+   "r04_2"
+  ],
+  "upcoming": false
+ },
+ {
+  "id": 5,
+  "title": "Chicago Med",
+  "episode": "s10e15",
+  "date": "03/05/25",
+  "times": [
+   "0:10:08",
+   "0:14:07",
+   "0:20:45",
+   "0:20:54",
+   "0:40:02"
+  ],
+  "notes": [
+   "Overhead drone shot of well, firefighter walking around left side of well.",
+   "As Ripley is lowered into the well, firefighter on left of screen near yellow ventilation hose.",
+   "As Emelia is brought out of the well, firefighter on left of screen.",
+   "After Mouch hands Emelia to other firefighter, on left of screen.",
+   "As Ripley is raised out of the well, middle firefighter just behind the rope."
+  ],
+  "shots": [
+   "r05_1",
+   "r05_2",
+   "r05_3",
+   "r05_4",
+   "r05_5",
+   "r05_6"
+  ],
+  "upcoming": false
+ },
+ {
+  "id": 6,
+  "title": "Chicago Med",
+  "episode": "s10e16",
+  "date": "03/26/25",
+  "times": [
+   "0:00:52"
+  ],
+  "notes": [
+   "Patient visitor, chatting with a doctor in ER intake room when coma patient is rushed in. Only my head is visible in the distant background."
+  ],
+  "shots": [
+   "r06_1"
+  ],
+  "upcoming": false
+ },
+ {
+  "id": 7,
+  "title": "Chicago Fire",
+  "episode": "s13e16",
+  "date": "03/26/25",
+  "times": [
+   "0:06:35"
+  ],
+  "notes": [
+   "Warehouse Foreman, brown jacket/pants, white hard hat; watching as FD arrive to help the guy trapped in the scissor lift. Multiple sightings throughout this sequence."
+  ],
+  "shots": [
+   "r07_1",
+   "r07_2",
+   "r07_3",
+   "r07_4",
+   "r07_5",
+   "r07_6",
+   "r07_7"
+  ],
+  "upcoming": false
+ },
+ {
+  "id": 8,
+  "title": "Chicago Fire",
+  "episode": "s13e17",
+  "date": "04/02/25",
+  "times": [
+   "0:10:11"
+  ],
+  "notes": [
+   "Police Officer stringing crime tape over mall door after Fire rescue. Barely visible, just as Pascal and Severide chat outside the mall."
+  ],
+  "shots": [
+   "r08_1",
+   "r08_2"
+  ],
+  "upcoming": false
+ },
+ {
+  "id": 9,
+  "title": "Chicago PD",
+  "episode": "s12e17",
+  "date": "04/02/25",
+  "times": [
+   "0:25:28"
+  ],
+  "notes": [
+   "Mugshot photo when Nick is reviewing possible suspects for the home invader. Second row middle on the first page of photos Nick looks at. First row right on second page of photos."
+  ],
+  "shots": [
+   "r09_1",
+   "r09_2"
+  ],
+  "upcoming": false
+ },
+ {
+  "id": 10,
+  "title": "Chicago Med",
+  "episode": "s10e20",
+  "date": "05/07/25",
+  "times": [
+   "0:10:30",
+   "0:31:30"
+  ],
+  "notes": [
+   "Diner at table on screen right when Sharon confronts the nurses in the diner.",
+   "Also as Dr. Frost buys milkshakes for everyone."
+  ],
+  "shots": [
+   "r10_1",
+   "r10_2"
+  ],
+  "upcoming": false
+ },
+ {
+  "id": 11,
+  "title": "Chicago Fire",
+  "episode": "s13e20",
+  "date": "05/07/25",
+  "times": [
+   "0:16:07"
+  ],
+  "notes": [
+   "Doctor with gray hat, black overcoat and sunglasses, in line at outdoor coffee cart while Severide and Kidd get coffee."
+  ],
+  "shots": [
+   "r11_1",
+   "r11_2"
+  ],
+  "upcoming": false
+ },
+ {
+  "id": 12,
+  "title": "Chicago Fire",
+  "episode": "s13e21",
+  "date": "05/14/25",
+  "times": [
+   "0:08:23"
+  ],
+  "notes": [
+   "Bystander in brown pants and black jacket, sunglasses while Severide is investigating the burned car and scene."
+  ],
+  "shots": [
+   "r12_1",
+   "r12_2",
+   "r12_3"
+  ],
+  "upcoming": false
+ },
+ {
+  "id": 13,
+  "title": "Chicago PD",
+  "episode": "s12e21",
+  "date": "05/14/25",
+  "times": [
+   "0:07:22"
+  ],
+  "notes": [
+   "Funeral attendee, on sidewalk by hearse, you can see the back of my head as we walk away."
+  ],
+  "shots": [
+   "r13_1"
+  ],
+  "upcoming": false
+ },
+ {
+  "id": 14,
+  "title": "Chicago Med",
+  "episode": "s10e22",
+  "date": "05/21/25",
+  "times": [
+   "0:29:30"
+  ],
+  "notes": [
+   "In ICU, med tech moving gurney with Noah."
+  ],
+  "shots": [
+   "r14_1",
+   "r14_2"
+  ],
+  "upcoming": false
+ },
+ {
+  "id": 15,
+  "title": "Chicago PD",
+  "episode": "s12e22",
+  "date": "05/21/25",
+  "times": [
+   "0:32:37",
+   "0:32:41"
+  ],
+  "notes": [
+   "Pedestrian. Distant background when Voight's car pulls up outside Police HQ.",
+   "Walking in background behind Voight as he approaches HQ."
+  ],
+  "shots": [
+   "r15_1",
+   "r15_2"
+  ],
+  "upcoming": false
+ },
+ {
+  "id": 16,
+  "title": "Monster",
+  "episode": "s3",
+  "date": "2025",
+  "times": [],
+  "notes": [
+   "ep2, 15:15 : In pharmacy at table reading newspaper behind Ed and girl while they look at a photograph. (Can only see my hand holding newspaper at left edge of screen)",
+   "ep2, 48:38 : Deep background walking towards camera on street in front of tavern.",
+   "ep3, 26:00 : Crossing in front of alley right to left, with Bonnie while Ed lurks watching girl with leg brace enter grocery store across the street.",
+   "ep3, 26:45 : Walking down alley away from camera. (Can only see my legs, walking away)",
+   "ep6, 02:51 : Walking past hardware store, right side to left, behind detectives as they are looking through window.",
+   "ep7, 00:00:20 : Crossing street outside Sheriff station in front of police car as Frank exits his car. Brown overcoat, carrying briefcase.",
+   "ep7, 06:15 : Walking right side of street when Ed's car is being driven with sign on top before firetruck passes."
+  ],
+  "shots": [
+   "r16_1",
+   "r16_2",
+   "r16_3",
+   "r16_4",
+   "r16_5",
+   "r16_6",
+   "r16_7",
+   "r16_8"
+  ],
+  "upcoming": false
+ },
+ {
+  "id": 17,
+  "title": "Chicago PD",
+  "episode": "s13e05",
+  "date": "10/29/25",
+  "times": [],
+  "notes": [
+   "Street corner, light shirt black pants, talking with John and walking away from camera down street before car explodes.",
+   "Later, outside suspect's home as police are clearing the area, deep background, exiting right of screen as Bonnie directs us away."
+  ],
+  "shots": [
+   "r17_1",
+   "r17_2",
+   "r17_3"
+  ],
+  "upcoming": false
+ },
+ {
+  "id": 18,
+  "title": "Chicago Med",
+  "episode": "s11e06",
+  "date": "11/5/25",
+  "times": [],
+  "notes": [
+   "Construction worker in ED, light brown shirt:",
+   "Walking in ED distant background as Hannah enters room with Ripley.",
+   "Working in trauma room while Lyla and Violet exit ED with Frost talking about rabbit."
+  ],
+  "shots": [
+   "r18_1",
+   "r18_2",
+   "r18_3"
+  ],
+  "upcoming": false
+ },
+ {
+  "id": 19,
+  "title": "Chicago Fire",
+  "episode": "s14e06",
+  "date": "11/5/25",
+  "times": [],
+  "notes": [
+   "Blue suit, half visible to right of stairs as Pascal and Severide enter city hall.",
+   "Crossing below left of stairs with cop as Pascal and Severide come down stairs."
+  ],
+  "shots": [
+   "r19_1",
+   "r19_2"
+  ],
+  "upcoming": false
+ },
+ {
+  "id": 20,
+  "title": "Chicago PD",
+  "episode": "s13e08",
+  "date": "01/07/26",
+  "times": [],
+  "notes": [
+   "Rivian parked in street behind Voight's car when Voight and Burgess arrive on site."
+  ],
+  "shots": [
+   "r20_1"
+  ],
+  "upcoming": false
+ },
+ {
+  "id": 21,
+  "title": "Chicago Fire",
+  "episode": "s14e08",
+  "date": "01/07/26",
+  "times": [],
+  "notes": [
+   "City Hall worker in gray suit, crossing in distance towards right of screen as Pascal comes up stairs to talk with Davis."
+  ],
+  "shots": [
+   "r21_1"
+  ],
+  "upcoming": false
+ },
+ {
+  "id": 22,
+  "title": "Chicago Fire",
+  "episode": "s14e09",
+  "date": "01/14/26",
+  "times": [],
+  "notes": [
+   "Blue jacket. Stuck in traffic jam with Rivian as CFD arrives on accident scene, and Vasquez pries open driver's door."
+  ],
+  "shots": [
+   "r22_1",
+   "r22_2"
+  ],
+  "upcoming": false
+ },
+ {
+  "id": 23,
+  "title": "Chicago Fire",
+  "episode": "s14e12",
+  "date": "02/04/26",
+  "times": [],
+  "notes": [
+   "Doctor in burgundy scrubs and white labcoat.",
+   "In ED, crossing behind glass doors as Pascal waits in Waiting Room, just before Violet enters.",
+   "In ED walking away behind Lyla near elevators when Frost approaches her.",
+   "Crossing outside hospital room with Bonnie after Joe enters.",
+   "Hospital lobby, crossing behind Frost while he and Lyla chat at table."
+  ],
+  "shots": [
+   "r23_1",
+   "r23_2",
+   "r23_3",
+   "r23_4"
+  ],
+  "upcoming": false
+ },
+ {
+  "id": 24,
+  "title": "Chicago PD",
+  "episode": "s13e12",
+  "date": "02/04/26",
+  "times": [],
+  "notes": [
+   "Museum Goer, brown jacket.",
+   "Crossing behind black pickup in parking garage.",
+   "Watching string exhibit as Imani circles the tornado exhibit.",
+   "Without jacket: Museum lobby to right of escalator as Imani looks down into lobby",
+   "Middle of lobby with two others shot from top of stairs.",
+   "In parking garage, entering museum behind Voight."
+  ],
+  "shots": [
+   "r24_1",
+   "r24_2",
+   "r24_3",
+   "r24_4",
+   "r24_5"
+  ],
+  "upcoming": false
+ },
+ {
+  "id": 25,
+  "title": "Chicago Fire",
+  "episode": "s14e13",
+  "date": "03/04/26",
+  "times": [],
+  "notes": [
+   "Only visible in the episode promo trailer. The scene was re-shot for the episode and I was not in the re-shoot."
+  ],
+  "shots": [
+   "r25_1"
+  ],
+  "upcoming": false
+ },
+ {
+  "id": 26,
+  "title": "Chicago PD",
+  "episode": "s13e13",
+  "date": "03/04/26",
+  "times": [],
+  "notes": [
+   "Only half my face is visible, far left of screen, next to the guy with grey beard. My hat has gold leaves on it. At memorial service as Voight is confronting Marr."
+  ],
+  "shots": [
+   "r26_1"
+  ],
+  "upcoming": false
+ },
+ {
+  "id": 27,
+  "title": "Chicago Fire",
+  "episode": "s14e15",
+  "date": "03/18/26",
+  "times": [],
+  "notes": [
+   "High School parent. Black overcoat, waiting outside school while Kidd and Vasquez walk up sidewalk.",
+   "Then walking on sidewalk with other BG Eva while Kidd and Vasquez sit outside talking with a student.",
+   "Then walking solo towards end of that same conversation."
+  ],
+  "shots": [
+   "r27_1",
+   "r27_2"
+  ],
+  "upcoming": false
+ },
+ {
+  "id": 28,
+  "title": "Chicago PD",
+  "episode": "s13e15",
+  "date": "03/18/26",
+  "times": [],
+  "notes": [
+   "Deep background on bridge, bystander trying to see what's happening. Walk away behind squad car."
+  ],
+  "shots": [
+   "r28_1"
+  ],
+  "upcoming": false
+ },
+ {
+  "id": 29,
+  "title": "Chicago Fire",
+  "episode": "s14e17",
+  "date": "",
+  "times": [],
+  "notes": [
+   "Evacuating doctor in blue scrubs and brown jacket. First group exiting the building as the fire trucks arrive. Running in front of fire truck towards ambulance. Leaning on ambulance as window explodes."
+  ],
+  "shots": [
+   "r29_1",
+   "r29_2",
+   "r29_3"
+  ],
+  "upcoming": false
+ },
+ {
+  "id": 30,
+  "title": "Chicago Med",
+  "episode": "s11e20",
+  "date": "",
+  "times": [],
+  "notes": [
+   "Brown sweater, Visitor sitting in waiting room as Frost and Naomi enter, kiss, and Ripley enters ED with Frost. Barely visible."
+  ],
+  "shots": [
+   "r30_1"
+  ],
+  "upcoming": false
+ },
+ {
+  "id": 31,
+  "title": "Chicago PD",
+  "episode": "s13e21",
+  "date": "",
+  "times": [],
+  "notes": [
+   "Train Station Security Guard sitting at security screen while Ruzik is looking at monitors."
+  ],
+  "shots": [
+   "r31_1",
+   "r31_2"
+  ],
+  "upcoming": false
+ },
+ {
+  "id": 32,
+  "title": "Deli Boys",
+  "episode": "s02e02",
+  "date": "05/28/26",
+  "times": [],
+  "notes": [
+   "Golfer, white pants + blue jacket, chatting in lobby, walking and chatting with Larry.",
+   "In balcony, distant BG with Jan, while Raj, Mir and Lucky chat."
+  ],
+  "shots": [
+   "r32_1",
+   "r32_2",
+   "r32_3",
+   "r32_4",
+   "r32_5",
+   "r32_6",
+   "r32_7"
+  ],
+  "upcoming": false
+ },
+ {
+  "id": 33,
+  "title": "Dark Matter",
+  "episode": "s02e01",
+  "date": "08/28/26",
+  "times": [],
+  "notes": [
+   "Rivian parked on street as Jason, Daniella and Charlie cross the street.",
+   "Walking on sidewalk with Loni behind Rivian in scene above.",
+   "Walking towards camera as Jason, Daniella and Charlie interact with a kiosk. I turn and interact with another kiosk."
+  ],
+  "shots": [
+   "r33_1",
+   "r33_2",
+   "r33_3"
+  ],
+  "upcoming": false
+ },
+ {
+  "id": 34,
+  "title": "Dark Matter",
+  "episode": "s02e04",
+  "date": "09/18/26",
+  "times": [],
+  "notes": [
+   "Parent on University move-in day talking with son outside the dorm door as Jason and Daniela approach."
+  ],
+  "shots": [
+   "r34_1"
+  ],
+  "upcoming": false
+ },
+ {
+  "id": 35,
+  "title": "Chicago Med",
+  "episode": "s12e01",
+  "date": "",
+  "times": [],
+  "notes": [
+   "Janitor mopping when Hannah enters from elevator with baby. In background when Dean gives speech to ED and moment of silence."
+  ],
+  "shots": [
+   "r35_1",
+   "r35_2",
+   "r35_3",
+   "r35_4",
+   "r35_5",
+   "r35_6"
+  ],
+  "upcoming": false
+ },
+ {
+  "id": 36,
+  "title": "Chicago Fire",
+  "episode": "s15e02",
+  "date": "",
+  "times": [],
+  "notes": [
+   "Green shirt, black pants. Walking away on sidewalk in front of mental hospital as Violate and Nyla prepare to leave in the ambo.  Also crossing street behind ambo."
+  ],
+  "shots": [
+   "r36_1"
+  ],
+  "upcoming": false
+ },
+ {
+  "id": 37,
+  "title": "Chicago Fire",
+  "episode": "s15e02",
+  "date": "",
+  "times": [],
+  "notes": [
+   "Green shirt, brown khakis. Pedestrian across from fire house, walking towards camera, then turning corner while the probies wash helmets."
+  ],
+  "shots": [
+   "r37_1",
+   "r37_2"
+  ],
+  "upcoming": false
+ },
+ {
+  "id": 38,
+  "title": "Chicago Med",
+  "episode": "s12e06",
+  "date": "",
+  "times": [],
+  "notes": [
+   "Hockey Fan. Entering United Center through security as Dr. Charles approaches concession stand. In stands before game as Dr. Charles enters and finds his seat."
+  ],
+  "shots": [],
+  "upcoming": false
+ },
+ {
+  "id": 48,
+  "title": "The Bear",
+  "episode": "s4",
+  "date": "2025",
+  "times": [],
+  "notes": [
+   "Theater patron, back left side of theater while character watching Looney Toon cartoon.",
+   "Middle back of theater under projector while character watching Spellbound.",
+   "Behind and to right of character while camera is looking down on them watching David Bowie movie.",
+   "Front right of theater while movie screen is being shown full frame.",
+   "Entering theater lobby with Martha to right of camera and crossing to concession stand."
+  ],
+  "shots": [],
+  "upcoming": true
+ },
+ {
+  "id": 49,
+  "title": "Dark Matter",
+  "episode": "s2",
+  "date": "2026",
+  "times": [],
+  "notes": [
+   "Jeans, red shirt: Pedestrian crossing in front of the Dessen house.",
+   "Rivian parked down the block on other side.",
+   "Crossing with Megan as Jason drives car into alley.",
+   "Jeans, yellow shirt: Walking down street away from camera with Megan across from Dessen house as L train passes."
+  ],
+  "shots": [],
+  "upcoming": true
+ },
+ {
+  "id": 50,
+  "title": "Enemies",
+  "episode": "",
+  "date": "",
+  "times": [],
+  "notes": [
+   "Crossing left to right behind Austin as he exits hotel and pauses dramatically, looking around.",
+   "Rivian parked in distance behind Austin as he comes up stairs after a group of businessmen."
+  ],
+  "shots": [],
+  "upcoming": true
+ },
+ {
+  "id": 51,
+  "title": "Double Blind",
+  "episode": "",
+  "date": "",
+  "times": [],
+  "notes": [
+   "Restaurant scene with couple and two kids while they are giving dad a gift. Seated in background facing camera behind wife at table with Valencia, blue suit/shirt."
+  ],
+  "shots": [],
+  "upcoming": true
+ },
+ {
+  "id": 52,
+  "title": "System of Colors",
+  "episode": "",
+  "date": "",
+  "times": [],
+  "notes": [
+   "Symphony attendee. Lobby of theater after show, multiple passes across lobby with various other actors, and some standing and chatting in lobby."
+  ],
+  "shots": [],
+  "upcoming": true
+ },
+ {
+  "id": 53,
+  "title": "Habitat for Humanity ReStore Commercial",
+  "episode": "",
+  "date": "",
+  "times": [],
+  "notes": [
+   "Worker / Volunteer, moving a table, unloading boxes from donor truck."
+  ],
+  "shots": [],
+  "upcoming": true
+ },
+ {
+  "id": 54,
+  "title": "Weekend Warriors",
+  "episode": "",
+  "date": "",
+  "times": [],
+  "notes": [
+   "Walking towards United Center in front of Mark and Indie. Gray Bulls hoodie and beanie.",
+   "In lobby by Jordan statue after Mark and Indie leave, camera above, taking selfie with Megan.",
+   "Distant BG towards the top of section, far left or right of main cast section during game open with team intro music playing and while cast heckling, \"son of a beach\" scene.",
+   "During game, first row of middle section, long shot from across stadium showing whole section."
+  ],
+  "shots": [],
+  "upcoming": true
+ },
+ {
+  "id": 55,
+  "title": "Casey's Pizza Commercial",
+  "episode": "",
+  "date": "",
+  "times": [],
+  "notes": [
+   "Customer in brown jacket in BG walking from car while guy is being tossed like pizza.",
+   "Also walking back to car with white shopping bag.",
+   "In store, checking out at register behind guy asking \"can you toss me?\""
+  ],
+  "shots": [],
+  "upcoming": true
+ },
+ {
+  "id": 56,
+  "title": "Scam",
+  "episode": "",
+  "date": "2026",
+  "times": [],
+  "notes": [
+   "Buffet diner at table 12, near main cast. Scene where son and girlfriend meet his mother in a buffet, along with his scammer friend."
+  ],
+  "shots": [],
+  "upcoming": true
+ },
+ {
+  "id": 57,
+  "title": "Afloat",
+  "episode": "",
+  "date": "2026",
+  "times": [],
+  "notes": [
+   "Office manager in meeting. Sitting at head of conference table, yelling and glaring at Joy and asking about report. Background movement during shot where Joy is being pulled through office on dolly. Scene where Joy is being asked if she's alright, in background greeting worker and walking off."
+  ],
+  "shots": [],
+  "upcoming": true
+ },
+ {
+  "id": 58,
+  "title": "American Blue",
+  "episode": "Pilot",
+  "date": "",
+  "times": [],
+  "notes": [
+   "Bar scene, sitting at bar behind the off-duty SWAT, blue jeans, brown shirt. Male SWAT cop enters with female and is greeted by everyone in the bar. Later, same office leaves the bar while everyone tries to get him to stay."
+  ],
+  "shots": [],
+  "upcoming": true
+ },
+ {
+  "id": 59,
+  "title": "Better than the Movies",
+  "episode": "",
+  "date": "",
+  "times": [],
+  "notes": [
+   "Shermer fan dressed in white pants, white shirt with blue sleeves, near end of bleachers across from camera when 51 makes free throw. Also, in stands behind actress that yells when 51 makes free throw, dressed in white pants light t-shirt."
+  ],
+  "shots": [],
+  "upcoming": true
+ }
+]
