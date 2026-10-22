@@ -603,7 +603,7 @@
   "id": 35,
   "title": "Chicago Med",
   "episode": "s12e01",
-  "date": "",
+  "date": "10/07/26",
   "times": [],
   "notes": [
    "Janitor mopping when Hannah enters from elevator with baby. In background when Dean gives speech to ED and moment of silence."
@@ -622,7 +622,7 @@
   "id": 36,
   "title": "Chicago Fire",
   "episode": "s15e02",
-  "date": "",
+  "date": "10/14/26",
   "times": [],
   "notes": [
    "Green shirt, black pants. Walking away on sidewalk in front of mental hospital as Violate and Nyla prepare to leave in the ambo.  Also crossing street behind ambo."
@@ -635,8 +635,8 @@
  {
   "id": 37,
   "title": "Chicago Fire",
-  "episode": "s15e02",
-  "date": "",
+  "episode": "s15e03",
+  "date": "10/21/26",
   "times": [],
   "notes": [
    "Green shirt, brown khakis. Pedestrian across from fire house, walking towards camera, then turning corner while the probies wash helmets."
@@ -645,18 +645,6 @@
    "9a1101143faf",
    "2ce6b0390633"
   ],
-  "upcoming": false
- },
- {
-  "id": 38,
-  "title": "Chicago Med",
-  "episode": "s12e06",
-  "date": "",
-  "times": [],
-  "notes": [
-   "Hockey Fan. Entering United Center through security as Dr. Charles approaches concession stand. In stands before game as Dr. Charles enters and finds his seat."
-  ],
-  "shots": [],
   "upcoming": false
  }
 ]
