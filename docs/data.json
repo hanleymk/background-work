@@ -41,15 +41,16 @@
   "id": 3,
   "title": "The Beast",
   "episode": "s01e06",
-  "date": "2009",
+  "date": "",
   "times": [
    "0:09:40"
   ],
   "notes": [
-   "In the background when Travis is applying for the job, both Carol and I appear in the background several times, not easily identifiable. Wearing black raincoat."
+   "When Travis is applying for the job, both Carol and Mark appear in the background several times, not easily identifiable. Wearing black raincoat."
   ],
   "shots": [
-   "7fa1e3ade425"
+   "7fa1e3ade425",
+   "d64ee9f9676c"
   ],
   "upcoming": false
  },
@@ -477,8 +478,7 @@
   "date": "03/18/26",
   "times": [],
   "notes": [
-   "High School parent. Black overcoat, waiting outside school while Kidd and Vasquez walk up sidewalk.",
-   "Then walking on sidewalk with other BG Eva while Kidd and Vasquez sit outside talking with a student.",
+   "High School parent. Black overcoat.Walking on sidewalk with other BG Eva while Kidd and Vasquez sit outside talking with a student.",
    "Then walking solo towards end of that same conversation."
   ],
   "shots": [
@@ -628,7 +628,8 @@
    "Green shirt, black pants. Walking away on sidewalk in front of mental hospital as Violate and Nyla prepare to leave in the ambo.  Also crossing street behind ambo."
   ],
   "shots": [
-   "041c4fc82b54"
+   "041c4fc82b54",
+   "cd295260a507"
   ],
   "upcoming": false
  },
