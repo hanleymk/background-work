@@ -11,7 +11,15 @@ from google.auth.transport.requests import Request
 from googleapiclient.discovery import build
 
 SHEET = "1H3u_c0_rE7Vxt1WqkbqcQuB-eNFzDuPJRuxSoZt0L5o"
-VENV_PY = "/root/.hermes/installs/76f6e7e5145b5f39/environments/68d463f16f2e4f8ab6bf31e9ca0e3c40/venv/bin/python3"
+def _find_venv_py():
+    # Hermes env hash changes on update: pick newest venv python that has Pillow
+    import glob, os, subprocess as sp
+    c = sorted(glob.glob("/root/.hermes/installs/*/environments/*/venv/bin/python3"), key=os.path.getmtime, reverse=True)
+    for p in c:
+        if sp.run([p, "-c", "import PIL"], capture_output=True).returncode == 0:
+            return p
+    raise SystemExit("no Hermes venv python with Pillow found")
+VENV_PY = _find_venv_py()
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DOCS, IMG = f"{ROOT}/docs", f"{ROOT}/docs/img"
 DATA = f"{DOCS}/data.json"
